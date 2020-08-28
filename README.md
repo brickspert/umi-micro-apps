@@ -2,20 +2,14 @@
 
 umi & qiankun demo
 
-1. install deps
+1. install deps and start all
 
 ```bash
-cd layout && yarn && cd ../shop && yarn && cd ../user && yarn && cd ../
+cd layout && yarn && yarn start 
+
+cd ../shop && yarn && yarn start
+
+cd ../user && yarn && yarn start
 ```
 
-2. start all
-
-```bash
-cd layout && yarn start 
-
-cd ../shop && yarn start
-
-cd ../user && yarn start
-```
-
-3. open http://localhost:8000
+2. open http://localhost:8000
