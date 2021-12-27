@@ -2,7 +2,7 @@
   "name": "user",
   "private": true,
   "scripts": {
-    "start": "PORT=8002 umi dev",
+    "start": "cross-env PORT=8002 umi dev",
     "build": "umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
@@ -33,6 +33,7 @@
     "yorkie": "^2.0.0"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "mockjs": "^1.1.0"
   },
   "__npminstall_done": false
